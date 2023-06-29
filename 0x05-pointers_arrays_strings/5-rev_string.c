@@ -14,7 +14,7 @@ int l, i;
 char tmp;
 
 /*find string lenth without null char*/
-for (l = 0; s[l] != '\0'; ++1)
+for (l = 0; s[l] != '\0'; ++l)
 	;
 
 /*swap the string by looping to half the string*/
